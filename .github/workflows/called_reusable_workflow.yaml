@@ -33,5 +33,5 @@ jobs:
           cat $GITHUB_ENV
           cat $GITHUB_OUTPUT
   job2:
-    name: Nombre job 2
+    name: Nombre job 2 RW
     uses: fervaz94/repositorio-pruebas3/.github/workflows/called_reusable_workflow2.yaml@main
